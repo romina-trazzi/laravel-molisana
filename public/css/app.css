@@ -64,5 +64,18 @@ a:hover {
   border-bottom: 5px solid darkblue;
 }
 
+main {
+  width: 100%;
+  height: auto;
+  background-image: url("/img/fondo-molisana.jpg");
+  background-repeat: repeat;
+}
+
 /* End Header ( Logo + Navbar ) */
+
+main div h2 {
+  color: darkblue;
+  text-align: center;
+  padding: 20px;
+}
 

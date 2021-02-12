@@ -1,14 +1,46 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    
     @extends('layout.core') <!-- Prende il layout predefinito in core.blade.php -->
 
     @section('title')   
         Prodotti
     @endsection
    
-    @foreach ($data as $dato) 
-        {{ $dato['src'] }}
-    @endforeach
+    @section('main')
+
+    <main>
+
+        <div>
+            <h2> LE LUNGHE </h2>
     
-</html>
+    
+            @foreach ($data as $dato) 
+                {{ $dato['src'] }}
+            @endforeach
+
+        </div>
+
+
+        <div>
+            <h2> LE CORTE </h2>
+    
+    
+            @foreach ($data as $dato) 
+                {{ $dato['src'] }}
+            @endforeach
+            
+        </div>
+
+        <div>
+            <h2> LE CORTISSIME </h2>
+    
+    
+            @foreach ($data as $dato) 
+                {{ $dato['src'] }}
+            @endforeach
+            
+        </div>
+
+    </main>
+
+
+    @endsection
+    

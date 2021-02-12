@@ -48,5 +48,11 @@ a:hover {
     border-bottom: 5px solid darkblue;
 }
 
+main {
+    @include SectionDimension(100%, auto);
+    background-image: url('/img/fondo-molisana.jpg');
+    background-repeat: repeat;
+}
+
 
 /* End Header ( Logo + Navbar ) */
