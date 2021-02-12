@@ -1,0 +1,72 @@
+@mixin SectionDimension ($w, $h) {
+    width: $w;
+    height: $h;
+};
+
+$backgroundColor: (
+    "regular": white
+);
+
+$fontFamily: (
+    "regular": "Arial",
+    "robot": "Roboto"
+);
+
+@mixin Font ($dimension, $weight) {
+    font-size: $dimension;
+    font-weight: $weight;
+    color: darkblue;
+};
+
+@mixin MainImg-Dimension {
+    width: 520px;
+    height: 315px;
+};
+
+$colorPalette: (
+);
+
+/* Mixin di Flexbox */
+
+@mixin FlexCenter($height, $direction) {
+    height: $height;
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+};
+
+@mixin FlexAround($height, $direction) {
+    height: $height;
+    display: flex;
+    flex-direction: $direction;
+    @if ($direction == "row") {
+        justify-content: space-around;   
+    } @if ($direction == "column") {
+        align-items: space-around;
+    }
+};
+
+@mixin FlexBetween($height, $direction) {
+    height: $height;
+    display: flex;
+    flex-direction: $direction;
+    @if ($direction == "row") {
+        justify-content: space-between;   
+    } @if ($direction == "column") {
+        align-items: space-between;
+    }
+};
+
+@mixin FlexEvenly($height, $direction) {
+    height: $height;
+    display: flex;
+    flex-direction: $direction;
+    @if ($direction == "row") {
+        justify-content: space-evenly;   
+    } @if ($direction == "column") {
+        align-items: space-evenly;
+    }
+};
+
+/* End Mixin di Flexbox */

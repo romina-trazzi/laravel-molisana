@@ -1,0 +1,64 @@
+/* Mixin di Flexbox */
+
+/* End Mixin di Flexbox */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1150px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* Header ( Logo + Navbar ) */
+
+.logo {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #b1d21d;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  font-size: 18px;
+  font-weight: 600;
+  color: darkblue;
+  /* font-family: map-get($fontFamily, robot); */
+  padding-left: 10px;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkblue;
+  border-bottom: 10px solid darkblue;
+}
+
+/* End Header ( Logo + Navbar ) */
+
