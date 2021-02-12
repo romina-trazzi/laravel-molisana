@@ -7,8 +7,8 @@
     <nav>
         <ul>
             <li> <a href="/"> HOME </a> </li>
-            <li> <a href="single_pages/prodotti"> PRODOTTI </a> </li>
-            <li> <a href="single_pages/contatti"> CONTATTI </a> </li>
+            <li> <a href="/single_pages/prodotti"> PRODOTTI </a> </li>
+            <li> <a href="/single_pages/contatti"> CONTATTI </a> </li>
         </ul>
     </nav>
 

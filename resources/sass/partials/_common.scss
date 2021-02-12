@@ -29,9 +29,13 @@ nav {
         & li {
             @include Font (18px, 600);
             /* font-family: map-get($fontFamily, robot); */
-            padding-left: 10px;
+            margin-left: 20px;
         }
     }
+}
+
+a {
+    padding: 0 10px;
 }
 
 a:link, a:visited {
@@ -41,7 +45,7 @@ a:link, a:visited {
 
 a:hover {
     color: darkblue;
-    border-bottom: 10px solid darkblue;
+    border-bottom: 5px solid darkblue;
 }
 
 

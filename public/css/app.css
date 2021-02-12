@@ -46,7 +46,11 @@ nav ul li {
   font-weight: 600;
   color: darkblue;
   /* font-family: map-get($fontFamily, robot); */
-  padding-left: 10px;
+  margin-left: 20px;
+}
+
+a {
+  padding: 0 10px;
 }
 
 a:link,
@@ -57,7 +61,7 @@ a:visited {
 
 a:hover {
   color: darkblue;
-  border-bottom: 10px solid darkblue;
+  border-bottom: 5px solid darkblue;
 }
 
 /* End Header ( Logo + Navbar ) */

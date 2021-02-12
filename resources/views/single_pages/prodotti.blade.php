@@ -7,10 +7,8 @@
         Prodotti
     @endsection
    
-    <body>
-
-        
+    @foreach ($data as $dato) 
+        {{ $dato['src'] }}
+    @endforeach
     
-        
-    </body>
 </html>
