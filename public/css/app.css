@@ -79,3 +79,10 @@ main div h2 {
   padding: 20px;
 }
 
+main div .box_pasta {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  padding: 10px, 15px, 15px, 10px;
+}
+

@@ -21,7 +21,7 @@ Route::get('single_pages/prodotti', function () {
     $data = [
         [
             "src" => "https://www.lamolisana.it/wp-content/uploads/2017/06/4-spaghetto-quadrato-bucato-m.jpg",
-            "src-h" => "https://www.lamolisana.it/wp-content/uploads/2017/06/4-spaghetto-quadrato-bucato-h.jpg",
+            "srca-h" => "https://www.lamolisana.it/wp-content/uploads/2017/06/4-spaghetto-quadrato-bucato-h.jpg",
             "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/06/4-spaghetto-quadrato-bucato-p.jpg",
             "titolo" => "N.4 Spaghetto Quadrato Bucato",
             "tipo" => "lunga",
