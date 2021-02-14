@@ -14,13 +14,6 @@ $fontFamily: (
     color: darkblue;
 };
 
-@mixin MainImg-Dimension {
-    width: 520px;
-    height: 315px;
-};
-
-/* Mixin di Flexbox */
-
 @mixin FlexCenter($height, $direction) {
     height: $height;
     display: flex;
@@ -29,37 +22,3 @@ $fontFamily: (
     align-items: center;
 };
 
-@mixin FlexAround($height, $direction) {
-    height: $height;
-    display: flex;
-    flex-direction: $direction;
-    @if ($direction == "row") {
-        justify-content: space-around;   
-    } @if ($direction == "column") {
-        align-items: space-around;
-    }
-};
-
-@mixin FlexBetween($height, $direction) {
-    height: $height;
-    display: flex;
-    flex-direction: $direction;
-    @if ($direction == "row") {
-        justify-content: space-between;   
-    } @if ($direction == "column") {
-        align-items: space-between;
-    }
-};
-
-@mixin FlexEvenly($height, $direction) {
-    height: $height;
-    display: flex;
-    flex-direction: $direction;
-    @if ($direction == "row") {
-        justify-content: space-evenly;   
-    } @if ($direction == "column") {
-        align-items: space-evenly;
-    }
-};
-
-/* End Mixin di Flexbox */

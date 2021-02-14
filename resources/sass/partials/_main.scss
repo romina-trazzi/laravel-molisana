@@ -1,7 +1,7 @@
 main {
     & .container {
         padding-bottom: 20px;
-        
+
         & h2 {
             color: darkblue;
             text-align: center;
@@ -16,7 +16,6 @@ main {
             grid-row-gap: 50px;
 
             & .box_pasta {
-
                 & img {
                     height: auto; 
                     width: 100%;
@@ -26,14 +25,18 @@ main {
                 & .content {  
                     height: 100%;
                     display: flex;
+                    flex-direction: column;
                     justify-content: center;
+                    align-items: center;
                     color: black;  
                     position: relative;
-                    transform: translate(0, -50%);
+                    transform: translate(0, -100%);
                     opacity: 0%;
+                    @include Font (20px, 800);
+
                     & img {
                         width: 10%;
-                        position: absolute;
+                        padding-top: 10px;
                     }
                 }
             
@@ -44,9 +47,10 @@ main {
             }
             
             & .box_pasta:hover {
-                background-color: grey;
+                background-color: white;
         
             }   
+            
         }
     }
 }

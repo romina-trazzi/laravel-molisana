@@ -6,7 +6,6 @@
 
 body {
     @include SectionDimension(100vw, 100%);
-    overflow-x: hidden;
 }
 
 .container {

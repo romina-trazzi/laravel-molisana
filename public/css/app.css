@@ -1,7 +1,3 @@
-/* Mixin di Flexbox */
-
-/* End Mixin di Flexbox */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,7 +7,6 @@
 body {
   width: 100vw;
   height: 100%;
-  overflow-x: hidden;
 }
 
 .container {
@@ -106,16 +101,21 @@ main .container .container_pasta .box_pasta img {
 main .container .container_pasta .box_pasta .content {
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   color: black;
   position: relative;
-  transform: translate(0, -50%);
+  transform: translate(0, -100%);
   opacity: 0%;
+  font-size: 20px;
+  font-weight: 800;
+  color: darkblue;
 }
 
 main .container .container_pasta .box_pasta .content img {
   width: 10%;
-  position: absolute;
+  padding-top: 10px;
 }
 
 main .container .container_pasta .box_pasta .content:hover {
@@ -123,6 +123,6 @@ main .container .container_pasta .box_pasta .content:hover {
 }
 
 main .container .container_pasta .box_pasta:hover {
-  background-color: grey;
+  background-color: white;
 }
 

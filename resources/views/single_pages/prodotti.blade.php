@@ -14,6 +14,7 @@
                     <div class="box_pasta">
                         <img src= "{{ $dato['src'] }}" alt = "formato di pasta lunga">
                         <div class="content">
+                            <p> "{{ $dato['titolo'] }}" </p>
                             <img src="{{ asset('img/icon.svg') }}">
                         </div>  
                     </div>
@@ -29,6 +30,7 @@
                         <img src= "{{ $dato['src'] }}" alt = "formato di pasta corta">
 
                         <div class="content">
+                            <p>"{{ $dato['titolo'] }}"</p>
                             <img src="{{ asset('img/icon.svg') }}">
                         </div>
 
@@ -46,6 +48,7 @@
                         <img src= "{{ $dato['src'] }}" alt = "formato di pasta cortissima">
 
                         <div class="content">
+                            <p> "{{ $dato['titolo'] }}" </p>
                             <img src="{{ asset('img/icon.svg') }}">
                         </div>
 
