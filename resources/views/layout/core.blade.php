@@ -27,10 +27,6 @@
         @yield('main')
 
     </body>
-
-        
-
-
 </html>
 
 
