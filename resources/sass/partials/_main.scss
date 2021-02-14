@@ -1,23 +1,24 @@
 main {
     & .container {
+        padding-bottom: 20px;
         
         & h2 {
             color: darkblue;
             text-align: center;
-            padding: 20px;
+            padding: 50px;
         }
         
         & .container_pasta {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-auto-rows: 200px;
-            grid-column-gap: 1%;
-            grid-row-gap: 10px;
+            grid-column-gap: 50px;
+            grid-row-gap: 50px;
 
             & .box_pasta {
                 @include SectionDimension(100%, 100%);
                 & img {
-                    @include SectionDimension(100%, 100%); 
+                    @include SectionDimension(100%, 98%); 
                 }
             }
         }
