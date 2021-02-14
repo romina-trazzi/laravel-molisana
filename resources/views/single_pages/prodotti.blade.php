@@ -13,6 +13,9 @@
                 @if ($dato['tipo'] == "lunga")
                     <div class="box_pasta">
                         <img src= "{{ $dato['src'] }}" alt = "formato di pasta lunga">
+                        <div class="content">
+                            <img src="{{ asset('img/icon.svg') }}">
+                        </div>  
                     </div>
                 @endif
             @endforeach 
@@ -24,6 +27,11 @@
                 @if ($dato['tipo'] == "corta")
                     <div class="box_pasta">
                         <img src= "{{ $dato['src'] }}" alt = "formato di pasta corta">
+
+                        <div class="content">
+                            <img src="{{ asset('img/icon.svg') }}">
+                        </div>
+
                     </div>
                 @endif
             @endforeach 
@@ -36,6 +44,11 @@
                 @if ($dato['tipo'] == "cortissima")
                     <div class="box_pasta">
                         <img src= "{{ $dato['src'] }}" alt = "formato di pasta cortissima">
+
+                        <div class="content">
+                            <img src="{{ asset('img/icon.svg') }}">
+                        </div>
+
                     </div>
                 @endif
             @endforeach 

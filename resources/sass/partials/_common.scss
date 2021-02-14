@@ -2,11 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 body {
     @include SectionDimension(100vw, 100%);
+    overflow-x: hidden;
 }
 
 .container {
@@ -49,8 +49,8 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: darkblue;
     border-bottom: 5px solid darkblue;
+    color: darkblue;
 }
 
 main {

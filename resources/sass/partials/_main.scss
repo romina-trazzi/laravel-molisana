@@ -16,13 +16,34 @@ main {
             grid-row-gap: 50px;
 
             & .box_pasta {
-                @include SectionDimension(100%, 100%);
+
                 & img {
-                    @include SectionDimension(100%, 98%); 
+                    height: auto; 
+                    width: 100%;
                 }
+
+            
+                & .content {
+                    height: 33px;  
+                    display: flex;
+                    justify-content: center;
+                    color: black;  
+                    position: relative;
+                    transform: translate(0, -50%);
+                    bottom: 50%;
+
+                    & img {
+                        width: 10%;
+                        position: absolute;
+                    }
+                }
+
             }
+            
+        & .box_pasta:hover {
+            background-color: yellow;
         }
-    }    
+    }
 }
 
 
