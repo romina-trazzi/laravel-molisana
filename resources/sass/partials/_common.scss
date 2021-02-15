@@ -4,8 +4,8 @@
     padding: 0;
 }
 
-body {
-    @include SectionDimension(100vw, 100%);
+main {
+    background-image: url('/img/fondo-molisana.jpg');
 }
 
 .container {
@@ -32,7 +32,6 @@ nav {
         
         & li {
             @include Font (18px, 600);
-            /* font-family: map-get($fontFamily, robot); */
             margin-left: 20px;
         }
     }
@@ -52,11 +51,6 @@ a:hover {
     color: darkblue;
 }
 
-main {
-    @include SectionDimension(100%, auto);
-    background-image: url('/img/fondo-molisana.jpg');
-    background-repeat: repeat;
-}
 
 
 /* End Header ( Logo + Navbar ) */

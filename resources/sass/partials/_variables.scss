@@ -3,11 +3,6 @@
     height: $h;
 };
 
-$fontFamily: (
-    "regular": "Arial",
-    "robot": "Roboto"
-);
-
 @mixin Font ($dimension, $weight) {
     font-size: $dimension;
     font-weight: $weight;
