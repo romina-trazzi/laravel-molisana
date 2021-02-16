@@ -1,7 +1,5 @@
 main {
     & .container {
-        padding-bottom: 20px;
-
         & h2 {
             color: darkblue;
             text-align: center;
@@ -11,7 +9,7 @@ main {
         & .container_pasta {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-auto-rows: 211px;
+            grid-template-rows: repeat(2, 211px);
             grid-column-gap: 50px;
             grid-row-gap: 50px;
 
